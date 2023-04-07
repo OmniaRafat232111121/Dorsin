@@ -1,5 +1,8 @@
 import { faDiamond,faFile,faSackDollar,faPlaneArrival,faTableList,faPaintRoller } from '@fortawesome/free-solid-svg-icons'
-
+import  Frankk from './assets/Frank.jpg'
+import Elaine from './assets/Elaine.jpg';
+import wanda from './assets/wanda.jpg';
+import gigi from './assets/jiji.jpg';
 export const Data={
     serv:[
         {
@@ -32,6 +35,58 @@ export const Data={
             icon:faPaintRoller,
             title:"Easy to Customize",
             text:'Question Marks and devious Semikoli, but the Little Blind Text didn’t listen. She packed her seven versalia.'
+        }
+    ],
+
+    Pricing:[
+        {
+            title:'Economy',
+            price:'$9.0',
+            time:'BILLINGPERMONTH',
+            BandWidth:'1GB',
+            onlineSpace:'50MB',
+            Support:'No',
+            Domain:'1',
+            HiddenFees:'No'
+        },{
+            title:'Economy',
+            price:'$9.0',
+            time:'BILLINGPERMONTH',
+            BandWidth:'1GB',
+            onlineSpace:'50MB',
+            Support:'No',
+            Domain:'1',
+            HiddenFees:'No'
+
+        },{
+        title:'Economy',
+            price:'$9.0',
+            time:'BILLINGPERMONTH',
+            BandWidth:'1GB',
+            onlineSpace:'50MB',
+            Support:'No',
+            Domain:'1',
+            HiddenFees:'No'
+        }
+    ],
+    People:[
+        {
+            img:Frankk,
+            name:'Frank Johnson',
+            job:'CEO'
+        },{
+            img:Elaine,
+            name:'Elaine Stclair',
+            job:'DESIGNER'
+        },{
+            img:wanda,
+            name:'Wanda Arthur',
+             job:'DEVELOPER',
+        },{
+            img:gigi,
+            name:'Joshua Stemple',
+            job:'MANAGER'
+            
         }
     ]
 }

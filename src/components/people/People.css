@@ -1,0 +1,52 @@
+.people{
+    margin:50px 0;
+    padding:25px 0;
+    position:relative;
+}
+.people h2{
+    margin:25px 0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 30px;
+    color:#000;  
+
+}
+.people::before{
+    content:'';
+    position: absolute;
+    background-color:#ff0000;
+    width:100px;
+    height:3px;
+    text-align: center;
+    top:100px;
+    right:720px;
+}
+.people p{
+    margin:25px 0;
+}
+.people .box{
+    width:100%;
+    height:auto;
+    max-width: 100%;
+    background-color: #dddd;
+    box-sizing: border-box;
+    border:1px solid #dddd;
+    padding:10px;
+    text-align: center;
+    border-radius: 10px;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+.people .box h6{
+    color:black;
+    margin: 20px 0;
+    font-size: 23px;
+}
+.people .box span{
+    color:#ff0000;
+    margin: 20px 0;
+    font-size: 18px;
+}
+.people .box:hover{
+    transform: translateY(10px);
+}

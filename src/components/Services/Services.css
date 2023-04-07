@@ -5,6 +5,18 @@
     height:auto;
     text-align: center;
     overflow:hidden;
+    position: relative;
+
+}
+.services::before{
+    content:'';
+    position: absolute;
+    background-color:#ff0000;
+    width:100px;
+    height:3px;
+    text-align: center;
+    top:100px;
+    right:720px;
 }
 .services .row{
     margin: 35px 0;

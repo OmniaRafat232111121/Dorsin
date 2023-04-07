@@ -1,0 +1,80 @@
+.prices{
+    margin:50px 0;
+    padding:25px 0;
+    position:relative;
+}
+.prices h2{
+    margin:25px 0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 30px;
+    color:#000;
+}
+.prices::before{
+    content:'';
+    position: absolute;
+    background-color:#ff0000;
+    width:100px;
+    height:3px;
+    text-align: center;
+    top:100px;
+    right:720px;
+}
+.prices p{
+    margin:25px 0;
+}
+.prices .box{
+    width:100%;
+    height:auto;
+    max-width: 100%;
+    background-color: #dddd;
+    box-sizing: border-box;
+    border:1px solid #dddd;
+    padding:10px;
+    text-align: center;
+    border-radius: 10px;
+}
+.prices .box h6{
+    color:#000;
+    font-size: 15px;
+    margin:5px 0;
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+.prices .box h4{
+    color:#000;
+    font-size: 35px;
+    margin:10px 0;
+    font-weight: bold;
+
+}
+.prices .box span{
+    color:#000;
+    margin:5px 0;
+}
+.prices .box ul{
+margin:15px 0px;
+padding:0px;
+}
+.prices .box ul li{
+    color:#ff0000;
+    font-weight: bold;
+    font-size: 13px;
+    margin:10px 0;
+}
+.prices .box ul li span{
+    color:#000;
+    margin:5px 0;
+}
+.prices button{
+    background-color: #ff0000;
+    border:1px solid #ff0000;
+    box-sizing: border-box;
+    text-align: center;
+    width:110px;
+    height:40px;
+    font-size: 14px;
+    text-transform: uppercase;
+    border-radius: 10px;
+}
