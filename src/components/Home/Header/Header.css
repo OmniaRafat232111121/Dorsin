@@ -1,16 +1,18 @@
 header{
+
     background: url("../../../assets/home.jpg") center no-repeat;
     width:100%;
     max-width:100%;
-    height:auto;
+    height:70vh;
     text-align:center;
     overflow:hidden;
 }
+
 .header-overflow{
     background-color: rgba(101,52,149,0.9);
     width:100%;
     max-width:100%;
-    height:auto;
+    height:100vh;
     padding:25px 0;
 }
 .header-overflow .container .row{

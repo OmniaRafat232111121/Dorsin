@@ -1,0 +1,98 @@
+.services{
+    margin-top: 60px;
+    width: 100%;
+    max-width:100%;
+    height:auto;
+    text-align: center;
+    overflow:hidden;
+}
+.services .row{
+    margin: 35px 0;
+}
+.services h2{
+color:#000;
+font-size: 30px;
+margin:15px 0;
+text-transform: uppercase;
+letter-spacing: 1px;
+
+}
+.services p{
+color:#777;
+margin:20px 0;
+font-family: 15px;
+}
+.services .box{
+    width:100%;
+    max-width:100%;
+    overflow: hidden;
+    padding:5px;
+    height:auto;
+    background-color: transparent;
+    margin:  0 20px;
+}
+.services .box svg{
+    color: #fb3e3e;
+    margin:20px 0;
+}
+.services .box h3{
+    color:#222;
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin:20px 0;
+
+}
+.services .box p{
+    color:#777;
+    font-size: 15px;
+    margin:15px 0;
+}
+.services .box:hover svg{
+    background-color: #fb3e3e;
+    color:#fff;
+    width: 40px;
+    height:40px;
+    padding:10px;
+    border-radius: 50%;
+    transition: 0.3s ease-in-out;
+}
+.services .last{
+    margin-top: 70px;
+    padding:20px;
+    text-align: left;
+}
+.services .last h3{
+    color: #000;
+    font-size: 25px;
+    line-height: 30px;
+    width:70%;
+    
+}
+.services .last p{
+    font-size: 18px;
+    margin:15px 0;
+    width:80%;
+    color:#333;
+
+}
+.services .last ul{
+    padding:0;
+    margin:20px 0px;
+}
+.services .last ul li{
+    list-style-type:disc;
+    font-size: 15px;
+    margin:10px 0;
+    color:#777;
+}
+.services .last button{
+    background-color: #fb3e3e;
+    border:1px solid #fb3e3e;
+    width:140px;
+    height:40px;
+    text-align: center;
+    border-radius: 5px;
+    color:#fff;
+    margin:15px 0px;
+}
