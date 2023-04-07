@@ -1,0 +1,47 @@
+.Banner{
+    background: url("../../assets/home.jpg") center no-repeat;
+    background-size: cover;
+    text-align: center;
+    margin:60px 0px;
+}
+.Banner-overlay{
+    background-color: rgba(144, 28, 155, 0.9);
+    width:100%;
+    max-width: 100%;
+    height:auto;
+    text-align: center;
+    padding:40px 0;
+}
+.Banner .Banner-overlay .row{
+    margin:30px 0;
+}
+.Banner h3{
+    font-size: 35px;
+    font-weight: bold;
+    margin: 30px 0;
+    letter-spacing: 1px;
+    color:#fff;
+    width:90%;
+    max-width: 100%;
+}
+.Banner p{
+  
+    
+    margin: 30px 0;
+    letter-spacing: 1px;
+    color:#fff;
+    text-align: center;
+    width:90%;
+    max-width: 100%;
+}
+.Banner button{
+    padding:15px 10px;
+    border-radius: 10px;
+    background-color:#fb3e3e;
+    border:1px solid #fb3e3e;
+    color:#fff;
+
+}
+
+  
+

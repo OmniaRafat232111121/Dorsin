@@ -2,6 +2,7 @@ import React from 'react'
 import Header from './Header/Header'
 import Navs from './Navs/Navs'
 import Services from '../Services/Services'
+import Banner from '../Banner/Banner'
 
 
 const Home = () => {
@@ -10,6 +11,7 @@ const Home = () => {
       <Navs/>
       <Header/>
       <Services/>
+      <Banner/>
     </div>
   )
 }
