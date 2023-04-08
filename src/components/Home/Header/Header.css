@@ -3,11 +3,16 @@ header{
     background: url("../../../assets/home.jpg") center no-repeat;
     width:100%;
     max-width:100%;
-    height:70vh;
+    height:100vh;
     text-align:center;
     overflow:hidden;
 }
-
+.content{
+    
+    margin:100px auto;
+    text-align: center;
+    width:100%;
+}
 .header-overflow{
     background-color: rgba(101,52,149,0.9);
     width:100%;
@@ -68,4 +73,14 @@ header form button{
      position:absolute;
      right:440px;
      top:5px;
+}
+@media screen and (max-width:767px) {
+    header form button{
+        position: absolute;
+        right:40px;
+         top:5px;
+    }
+    .content{
+        width:100%;
+    }
 }

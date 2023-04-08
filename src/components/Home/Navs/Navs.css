@@ -1,5 +1,5 @@
-nav{
-background-color: #fff;
+.Navbar{
+background:transparent;
 width:100%;
 max-width: 100%;
 padding:5px 0px 5px 30px;
@@ -31,4 +31,8 @@ nav a.first{
     background-color:rgb(112,13,224);
     color:#fff !important;
     
+}
+Button{
+background-color:#4c036e;
+color:#fff;
 }

@@ -16,7 +16,7 @@ const Services = () => {
         )
     })
   return (
-   <section className='services'>
+   <section className='services' id="Services">
     <div className='container'>
         <div className='row'>
             <div className='col-lg-12'>

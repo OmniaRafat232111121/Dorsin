@@ -1,4 +1,6 @@
 import { faDiamond,faFile,faSackDollar,faPlaneArrival,faTableList,faPaintRoller } from '@fortawesome/free-solid-svg-icons'
+import {AiOutlineAntDesign} from 'react-icons/ai'
+import {BsFillFilePersonFill} from 'react-icons/bs'
 import  Frankk from './assets/Frank.jpg'
 import Elaine from './assets/Elaine.jpg';
 import wanda from './assets/wanda.jpg';
@@ -87,6 +89,21 @@ export const Data={
             name:'Joshua Stemple',
             job:'MANAGER'
             
+        }
+    ],
+    Process:[
+        {
+            icon:faDiamond,
+            title:'Tell us what you need',
+            text:'The Big Oxmox advised her not to do so.',
+        },{
+            icon:faTableList,
+            title:'Get free quotes',
+            text:'Little Blind Text didn’t listen.'
+        },{
+            icon:faTableList,
+            title:'Deliver high quality product',
+            text:'When she reached the first hills.'
         }
     ]
 }

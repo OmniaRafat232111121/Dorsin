@@ -1,9 +1,10 @@
-.people{
+.process{
     margin:50px 0;
     padding:25px 0;
     position:relative;
+    background-color: #f0ededdd;
 }
-.people h2{
+.process h2{
     margin:25px 0;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -11,7 +12,7 @@
     color:#000;  
 
 }
-.people::before{
+.process::before{
     content:'';
     position: absolute;
     background-color:#ff0000;
@@ -21,10 +22,10 @@
     top:100px;
     right:720px;
 }
-.people p{
+.process p{
     margin:25px 0;
 }
-.people .box{
+.process .box{
     width:100%;
     height:auto;
     max-width: 100%;
@@ -37,21 +38,41 @@
     transition: 0.3s ease-in-out;
     cursor: pointer;
 }
-.people .box h6{
+.process .box h6{
     color:black;
     margin: 20px 0;
     font-size: 23px;
 }
-.people .box span{
-    color:#ff0000;
+.process .box span{
+    color:#575757dd;
     margin: 20px 0;
     font-size: 18px;
+    
 }
-.people .box:hover{
+.process .box:hover{
     transform: translateY(20px);
 }
+.process button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:15%;
+    margin:30px auto;
+    border-radius: 10px;
+    background-color: #ff0000;
+    border:1px solid #ff0000;
+    color:#fff;
+    padding:15px  0px;
+    
+}
+.process button:hover{
+    transform: translateX(30px);
+}
 @media screen and (max-width:767px) {
-    .people .box{
-        margin-top: 40px;
+    .process .box{
+        margin-top: 20px;
+    }
+    .process button{
+        width: 60%;
     }
 }
