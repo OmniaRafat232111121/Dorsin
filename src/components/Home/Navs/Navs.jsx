@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Navbar, Nav, Container} from 'react-bootstrap';
 
 import React from 'react'
-
+import './Navs.css'
 const Navs = () => {
   return (
     <div>
